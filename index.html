@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yokinachia.id</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="logo">
+        <img src="img/c3961c25-a6a4-4f98-aef3-7754a5aa34a7_image.webp" alt="Yokinachia Logo">
+        <div class="title">
+        <h1>YOKINACHIA</h1>
+        <p>Official Fanbase of Nina Tutachia</p>
+        </div>
+    </div>
+<nav>
+        <ul class="nav-menu">
+        <li><a href="#">HOME</a></li>
+        <li class="dropdown">
+        <a href="#">ABOUT NACHIA <span class="material-icons">arrow_drop_down</span></a>
+        <ul class="dropdown-content">
+        <li><a href="#">#Selachia</a></li>
+        <li><a href="#">#Sabtutachia</a></li>
+    </ul>
+    </li>
+        <li class="dropdown">
+        <a href="#">NACHIA'S SCHEDULE <span class="material-icons">arrow_drop_down</span></a>
+        <ul class="dropdown-content">
+        <li><a href="#">Theater</a></li>
+        <li><a href="#">Video Call</a></li>
+    </ul>
+    </li>
+        <li><a href="#">MERCHANDISE</a></li>
+        <li class="dropdown">
+        <a href="#">ABOUT US</a>
+        <ul class="dropdown-content">
+        <li><a href="#">Crew</a></li>
+        <li><a href="#">Support</a></li>
+    </ul>
+    </li>
+        <li class="dropdown">
+        <a href="#">GAMENIN</a>
+        <ul class="dropdown-content">
+        <li><a href="#">Gamenin</a></li>
+        <li><a href="#">Love Meter</a></li>
+        </ul>
+        </li>
+        <li><a href="#">OUR LINKS</a></li>
+        </ul>
+    </nav>
+    </header>
+    <section class="hero">
+        <h2>
+        Welcome To <span class="animated">Yokinachia</span> - Fanspage of Nachia
+        </h2>
+</section>
+    <section class="profile-section">
+        <div class="profile-info">
+        <ul>
+            <li><span class="material-symbols-outlined">person</span> Nina Tutachia</li>
+            <li><span class="material-symbols-outlined">chat</span> Nachia</li>
+            <li><span class="material-symbols-outlined">cake</span> 16 Oktober 2009</li>
+            <li><span class="material-symbols-outlined">location_on</span> Bali</li>
+            <li><span class="material-symbols-outlined">opacity</span> Golongan O</li>
+            <li><span class="material-symbols-outlined">straighten</span> 162 cm (5 ft 3.7 in)</li>
+            <li><span class="material-symbols-outlined">star</span> ♎︎ Libra</li>
+        </ul>
+        <div class="jikoshoukai">
+            <p>“Si panda unyu yang selalu ceria. <br>Hai aku Nachia, bikin kamu bahagia.”</p>
+        </div>
+        <button class="about-button">Tentang Nachia</button>
+    </div>
+        <div class="profile-image">
+            <img src="img/ciso-removebg.png" alt="Nachia">
+        </div>
+    </section> 
+        <section class="hero-video">
+        <video id="nachiaVideo" autoplay muted loop playsinline>
+        <source src="img/JKT48 12th Generation Profile Nachia - JKT48.mp4" type="video/mp4">
+        Browser kamu tidak mendukung video ini.
+    </video>
+    </section>
+    <section class="stats-section">
+    <div class="stat-box">
+        <span class="material-icons">schedule</span>
+        <h2>66</h2>
+        <hr>
+        <p>Show</p>
+    </div>
+    <div class="stat-box">
+        <span class="material-icons">music_note</span>
+        <h2>4</h2>
+        <hr>
+        <p>Setlist</p>
+    </div>
+    <div class="stat-box">
+        <span class="material-icons">queue_music</span>
+        <h2>143</h2>
+        <hr>
+        <p>Unit Song</p>
+    </div>
+</section>
+<div class="countdown-container">
+        <h2>Nachia's Birthday Countdown</h2>
+        <div class="countdown-wrapper">
+        <div class="circle" id="days">
+    <svg>
+        <circle class="bg"></circle>
+        <circle class="progress" id="days-progress"></circle>
+    </svg>
+    <div class="number"><span id="days-value">0</span><br><small>Days</small></div>
+        </div>
+    <div class="circle" id="hours">
+        <svg>
+        <circle class="bg"></circle>
+        <circle class="progress" id="hours-progress"></circle>
+    </svg>
+    <div class="number"><span id="hours-value">0</span><br><small>Hours</small></div>
+    </div>
+    <div class="circle" id="minutes">
+    <svg>
+        <circle class="bg"></circle>
+        <circle class="progress" id="minutes-progress"></circle>
+    </svg>
+    <div class="number"><span id="minutes-value">0</span><br><small>Minutes</small></div>
+    </div>
+    <div class="circle" id="seconds">
+    <svg>
+        <circle class="bg"></circle>
+        <circle class="progress" id="seconds-progress"></circle>
+    </svg>
+    <div class="number"><span id="seconds-value">0</span><br><small>Seconds</small></div>
+    </div>
+    </div>
+</div>
+    <section class="calendar-container">
+        <div class="calendar-header">
+            <button id="prevMonth">&#8249;</button>
+            <h2 id="calendarTitle">Juni 2025</h2>
+            <button id="nextMonth">&#8250;</button>
+        </div>
+        <div class="calendar-days">
+            <div>Min</div><div>Sen</div><div>Sel</div><div>Rab</div><div>Kam</div><div>Jum</div><div>Sab</div>
+        </div>
+        <div id="calendarGrid" class="calendar-grid">
+        </div>
+    </section>
+    <section class="gallery-section">
+        <h2>Nachia's Gallery</h2>
+        <div class="gallery-grid" id="galleryGrid"></div>
+        <button id="loadMoreBtn">Load More</button>
+    </section> 
+        <section class="youtube-section">
+    <h2 class="section-title">Nachia in Youtube</h2>
+    <div class="youtube-grid">
+        <iframe src="https://www.youtube.com/embed/8BIvpwNkZyI?si=EogZUm73m8wHXOVV" loading="lazy" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/A_oJveTk21Q?si=X--0Z0vfUEvnwtMa" loading="lazy" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/i0yHl_GgNLQ?si=-lCBJLwWoNhZH-IK" loading="lazy" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/zG5XJVIa8YI?si=dhZTBmCNz4K3omPN" loading="lazy" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/_CP3TcvshsI?si=XsT700_5rhvRpxW6" loading="lazy" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/8lPfIhHGbdc?si=Ry37OhCkHLIOWvrD" loading="lazy" allowfullscreen></iframe>
+    </div>
+</section>
+    <footer class="site-footer">
+        <div class="footer-top">
+            <ul class="footer-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Nachia</a></li>
+                <li><a href="#">Nachia's Schedule</a></li>
+                <li><a href="#">Merchandise</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Crew<</a></li>
+                <li><a href="#">Our Links</a></li>
+            </ul>
+        </div>
+    <div class="footer-middle">
+    <div class="social-icons"> 
+        <a href="#"><i class="fab fa-tiktok"></i></a>
+        <a href="#"><i class="fab fa-x-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+    </div>
+    <div class="footer-bottom">
+    <p>© 2025 Yokinachia | All Rights Reserved</p>
+    </div>
+</footer>
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/yourkitid.js" crossorigin="anonymous"></script>
+</body>
+</html>
